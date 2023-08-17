@@ -12,6 +12,7 @@
 ## Pending tasks
 - Fixing bug where the network rejects a transaction because fees are too low even if the recommended fees are relatively low.
 - Updating the submit psbt form to use bitcoins and not satoshi
+- Updating the account balance to reflect pending transactions that either increase or decrease its value
 - Extending the app to send Taproot psbts. I was not able to find a faucet for that would accept a taproot address
 - Adding tests (run out of time trying to resolve signing, broadcasting and fees issues)
 - Adding storybook and completing styling
